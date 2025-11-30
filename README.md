@@ -18,7 +18,8 @@
 ### 1️⃣ **BI Hub – Landing Page**
 الواجهة الرئيسية لمركز ذكاء الأعمال حيث يتم تجميع جميع الـ Dashboards في منصة واحدة.
 
-[🔗 فتح الصفحة](./dashboards/bi-hub-landing-page.jpeg)
+![BI Hub – Landing Page](./dashboards/bi-hub-landing-page.jpeg)
+
 
 ---
 
