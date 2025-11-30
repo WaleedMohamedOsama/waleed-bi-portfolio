@@ -14,21 +14,33 @@
 ---
 
 ## 🚀 أبرز المشاريع
-🖥️ BI Hub – Landing Page
 
-الواجهة الرئيسية لمركز ذكاء الأعمال، حيث يتم تجميع جميع الـ Dashboards في منصة واحدة.
+### 1️⃣ **BI Hub – Landing Page**
+الواجهة الرئيسية لمركز ذكاء الأعمال حيث يتم تجميع جميع الـ Dashboards في منصة واحدة.
 
-<p align="center"> <img src="dashboards/bi-hub-landing-page.jpg" alt="BI Hub Landing Page" width="85%" style="border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.25);"> </p>
-📈 After Sales Performance Dashboard
+[🔗 فتح الصفحة](./dashboards/bi-hub-landing-page.jpeg)
 
-لوحة أداء شاملة لورش الصيانة وقطع الغيار والزيوت، مع مؤشرات المبيعات والربحية والتحقيق مقابل المستهدف.
+---
 
-<p align="center"> <img src="dashboards/after-sales-performance.jpg" alt="After Sales Performance Dashboard" width="85%" style="border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.25);"> </p>
-📉 After Sales Monthly Overview Dashboard
+### 2️⃣ **After Sales Performance Dashboard**
+لوحة تحليل أداء الورش وقطع الغيار والزيوت، مع مقارنة المستهدف بالمحقق، وتحليل أوامر الشغل والأرباح.
 
-تحليل شهر-بشهر لأداء الورش مقارنة بالمستهدفات ومعدلات الإنجاز وأداء الأقسام المختلفة.
+📌 **صور اللوحة:**
 
-<p align="center"> <img src="dashboards/after-sales-overview.jpg" alt="After Sales Monthly Overview Dashboard" width="85%" style="border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.25);"> </p>-
+![After Sales Performance Dashboard](./dashboards/after-sales-dashboard.jpg)
+
+---
+
+### 3️⃣ **After Sales Monthly Overview Dashboard**
+تحليل شهري شامل لأداء الورش مقابل المستهدفات، مع عرض التغيرات الشهرية لأداء كل الأقسام.
+
+📌 **صورة اللوحة:**
+
+![After Sales Monthly Overview](./dashboards/after-sales-overview.jpg)
+
+---
+
+
 ## 🧩 وثائق العمل (Business Documentation)
 سيتم رفع نماذج من الوثائق التي قمت بإعدادها:
 
