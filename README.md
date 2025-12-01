@@ -1,71 +1,73 @@
-# 📊 Business Intelligence & Data Systems Portfolio  
+📊 Business Intelligence & Data Systems Portfolio
 
-مرحبًا!  
-أنا **Waleed Mohamed Osama**, Senior Business & Systems Analyst متخصص في تحليل الأعمال، ذكاء الأعمال، Power BI، وتحسين عمليات ما بعد البيع بالقطاعين: السيارات والخدمات.
+مرحبًا بك في معرض الأعمال المهني الخاص بي.
+أنا Waleed Mohamed Osama، Senior Business & Systems Analyst متخصص في ذكاء الأعمال، تحليل البيانات، نمذجة البيانات، وقيادة التحول الرقمي في قطاعي السيارات والخدمات.
 
-هذا المستودع يحتوي على أعمالي، الداشبوردز، والوثائق الاحترافية التي قمت ببنائها، بما في ذلك:  
-✔ تقارير Power BI  
-✔ وثائق Business Requirements (BRD)  
-✔ وثائق System Requirements (SRS)  
-✔ Data Models & ETL Pipelines  
-✔ SQL Scripts  
-✔ وثائق التدقيق والتحسين (Process Mapping & RCA)
+يستعرض هذا المستودع مجموعة من الأعمال الاحترافية التي قمت بتطويرها خلال مسيرتي المهنية، بما يشمل:
 
----
+✔ لوحات تحكم تفاعلية باستخدام Power BI
 
-## 🚀 أبرز المشاريع
+✔ وثائق تحليل الأعمال: Business Requirements (BRD)
 
-### 1️⃣ **BI Hub – Landing Page**
-الواجهة الرئيسية لمركز ذكاء الأعمال حيث يتم تجميع جميع الـ Dashboards في منصة واحدة.
+✔ وثائق تحليل الأنظمة: System Requirements Specification (SRS)
 
+✔ نماذج البيانات وخطوط معالجة البيانات (Data Models & ETL Pipelines)
+
+✔ نصوص SQL لتنظيف وتحويل البيانات
+
+✔ وثائق تتبع وتحليل العمليات Process Mapping وتحليل جذور المشكلات RCA
+
+🚀 أبرز المشاريع
 ![BI Hub – Landing Page](./dashboards/bi-hub-landing-page.jpeg)
 
-
----
-
-### 2️⃣ **After Sales Performance Dashboard**
-لوحة تحليل أداء الورش وقطع الغيار والزيوت، مع مقارنة المستهدف بالمحقق، وتحليل أوامر الشغل والأرباح.
-
-📌 **صور اللوحة:**
+بوابة ذكاء الأعمال الرئيسية التي تضم جميع لوحات المتابعة التحليلية في منصة واحدة، بهدف تسهيل الوصول، تعزيز الرؤية التحليلية، ودعم متخذي القرار.
 
 ![After Sales Performance Dashboard](./dashboards/after-sales-dashboard.jpg)
 
----
+لوحة أداء تفاعلية شاملة لورش الصيانة وقطع الغيار والزيوت، تشمل تحليلًا للمبيعات، الإنتاجية، الخصومات، الربحية، وحجم أوامر الشغل، مع مقارنة دقيقة بين Actual vs Target.
 
-### 3️⃣ **After Sales Monthly Overview Dashboard**
-تحليل شهري شامل لأداء الورش مقابل المستهدفات، مع عرض التغيرات الشهرية لأداء كل الأقسام.
-
-📌 **صورة اللوحة:**
+📌 بعض اللقطات من اللوحة:
 
 ![After Sales Monthly Overview](./dashboards/after-sales-overview.jpg)
 
----
+لوحة تحليل شهري على مستوى جميع الورش، تعرض أداء الفروع، نسب الإنجاز، الربح الإجمالي، والانحراف عن المستهدفات، مع دعم كامل للفلاتر الديناميكية.
 
+📌 صورة من التقرير:
 
-## 🧩 وثائق العمل (Business Documentation)
-سيتم رفع نماذج من الوثائق التي قمت بإعدادها:
+🧩 وثائق العمل (Business Documentation)
 
-- Business Requirements Document (BRD)  
-- System Requirements Specification (SRS)  
-- Data Source Specification  
-- Process Workflow Mapping  
-- Integration Flow Diagrams  
+مجموعة من الوثائق التحليلية التي قمت بإعدادها لدعم تنفيذ الأنظمة وتحسين العمليات، وتشمل:
 
----
+Business Requirements Document (BRD)
 
-## 🧰 التقنيات المستخدمة
-- Power BI, DAX  
-- Power Query  
-- SQL Server  
-- ETL Processes  
-- Excel Advanced  
-- Business Analysis (BRD/SRS/UAT)  
-- Process Re-engineering  
-- Data Modeling  
+System Requirements Specification (SRS)
 
----
+Data Source Specification
 
-## 📬 تواصل معي
-- LinkedIn: https://www.linkedin.com/in/waleed-mohamed-5b85b432a  
-- Email: eng.waleed_it@outlook.com  
+Process Workflow Mapping
 
+Integration Flow Diagrams
+
+🧰 التقنيات المستخدمة
+
+Power BI / DAX
+
+SQL Server
+
+Power Query / M
+
+ETL Development
+
+Excel Advanced Analytics
+
+Business Analysis (BRD / SRS / UAT)
+
+Process Re-engineering & Optimization
+
+Data Modeling & Star Schema Design
+
+📬 تواصل معي
+
+LinkedIn: https://www.linkedin.com/in/waleed-mohamed-5b85b432a
+
+Email: eng.waleed_it@outlook.com
