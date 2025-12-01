@@ -71,3 +71,4 @@ Data Modeling & Star Schema Design
 LinkedIn: https://www.linkedin.com/in/waleed-mohamed-5b85b432a
 
 Email: eng.waleed_it@outlook.com
+Email: eng.waleed.it.701@Gmail.com
