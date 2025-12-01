@@ -1,0 +1,181 @@
+# Business Requirements Document (BRD)
+## After Sales Performance Dashboard
+### Version 1.0 – Prepared for: Automotive BI Platform
+
+---
+
+## 1. Introduction
+The **After Sales Performance Dashboard** is a unified analytical tool designed to evaluate the operational and financial performance of workshop activities across multiple brands (Peugeot & Mitsubishi).  
+The dashboard provides daily/monthly monitoring of labor, parts, oil, and tire revenues, profitability trends, achievement vs target, and workshop job-card behavior.
+
+This dashboard forms a core component of the **Automotive BI Platform**, enabling management to make informed decisions and identify underperforming KPIs or branches.
+
+---
+
+## 2. Business Objectives
+The dashboard aims to achieve the following objectives:
+
+- Provide a single performance view for multi-brand aftersales operations  
+- Track daily and monthly KPIs (Labor / Parts / Oil / Tires)  
+- Identify performance gaps between **Actual vs Target**  
+- Monitor workshop profitability  
+- Track customer behavior through job card analysis  
+- Enable brand-level and model-level performance comparisons  
+- Support decision-making for operational and financial improvements  
+
+---
+
+## 3. Scope of the Dashboard
+
+### In Scope
+- Revenue analysis for:
+  - Net Labor
+  - Net Parts
+  - Net Oil
+  - Net Tires
+- Daily & Monthly aggregations  
+- Actual vs Target comparison  
+- Workshop Profit  
+- Model performance (based on Parts revenue)  
+- Brand-level filtering  
+- Branch-level performance  
+- Job Cards filtering (Paid, Excluding Warranty & Internal)
+
+### Out of Scope
+- Direct Sales (POS revenue)  
+- AR/Aging analysis  
+- Expense performance  
+- Financial liquidity KPIs  
+- Warranty performance  
+
+---
+
+## 4. Data Sources
+
+### 4.1 ERP Systems
+- **Peugeot ERP** (Autoline instance)
+- **Mitsubishi ERP** (Separate database with identical structure)
+
+Both systems share the same schema but stored separately.  
+Data is unified after cleansing and transformation.
+
+### 4.2 Tables Used
+| Table | Description |
+|-------|-------------|
+| JC_Header | Job Card main info |
+| JC_Lines | Labor, Parts, Oil, Tires details |
+| DirectSales_POS | Direct parts sales (independent) |
+| Targets | Monthly KPI targets (Excel sheet) |
+| Models | Brand → Model → YearModel mapping |
+| Branches | Workshop branches |
+
+### 4.3 Refresh Frequency
+- Daily refresh @ 6:00 AM  
+- Monthly target update
+
+---
+
+## 5. User Personas
+
+| Role | Usage |
+|------|--------|
+| After Sales General Manager | Full performance review |
+| Workshop Manager | Daily operations tracking |
+| Parts Manager | Parts revenue & model performance |
+| Finance Controller | Profitability validation |
+| CEO/COO | Monthly executive performance |
+
+---
+
+## 6. KPI Definitions (Accurate to This Project)
+
+### 6.1 Net Labor Sales
+
+### 6.2 Net Parts Sales
+
+### 6.3 Net Oil Sales
+
+### 6.4 Net Tires Sales
+
+### 6.5 Workshop Profit
+
+### 6.6 Total Paid Orders
+
+### 6.7 Model Ranking (By Parts Net Sales)
+Top-selling models ranked by:
+
+### 6.8 Achievement %
+
+### 6.9 Variance
+
+### 6.10 Date Logic
+
+---
+
+## 7. Functional Requirements (FR)
+
+| ID | Requirement |
+|----|-------------|
+| FR-001 | Display all revenue KPIs (Labor/Parts/Oil/Tires) |
+| FR-002 | Provide Actual vs Target comparison |
+| FR-003 | Allow filtering by: Brand, Branch, Month, Year, Model |
+| FR-004 | Show full workshop profit |
+| FR-005 | Highlight underperformance with color coding |
+| FR-006 | Display model ranking based on Parts net sales |
+| FR-007 | Auto-exclude Warranty & Internal job cards |
+| FR-008 | Auto-clean negative or invalid entries |
+| FR-009 | Show daily/monthly summary cards |
+| FR-010 | Drill through to Job Cards |
+
+---
+
+## 8. Non-Functional Requirements (NFR)
+
+- **Performance:** Load time < 6 seconds  
+- **Accuracy:** Must match Finance numbers within 0.1%  
+- **Security:** Access limited to After Sales & Finance  
+- **Scalability:** Should support additional branches  
+- **Reliability:** Daily refresh must run automatically  
+
+---
+
+## 9. Constraints
+
+- Different ERP databases per brand  
+- Missing model codes in some entries  
+- Monthly target dependent on Finance updates  
+- Variances may occur if job cards closed late  
+- Inconsistent naming conventions in raw data  
+
+---
+
+## 10. Risks
+
+- Incorrect Brand/Model mapping  
+- Duplicate job cards  
+- Late posting from Finance  
+- Direct Sales mistakenly merged into Parts revenue  
+
+---
+
+## 11. Deliverables
+
+- Power BI Dashboard (After Sales Performance)  
+- Unified Fact & Dimension tables  
+- SQL transformations  
+- Data dictionary  
+- Business rules documentation  
+- End-user guide  
+
+---
+
+## 12. Future Enhancements
+
+- Add cost-based profitability  
+- Add technician productivity KPIs  
+- Add hourly labor rate KPI  
+- Add warranty performance dashboard  
+- Enable year-over-year comparison  
+
+---
+
