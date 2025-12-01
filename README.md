@@ -47,7 +47,33 @@ Data Source Specification
 Process Workflow Mapping
 
 Integration Flow Diagrams
+🗂 Documentation Index
+Business Documentation
 
+📄 BRD – After Sales Performance
+./docs/business/BRD_AfterSales_Performance.docx
+
+System Documentation
+
+(placeholder) SRS – After Sales Performance
+
+(placeholder) Data Source Specification
+
+(placeholder) Integration Flow Diagram
+
+Dashboards
+
+BI Hub – Landing Page
+
+After Sales Performance Dashboard
+
+After Sales Monthly Overview Dashboard
+
+Financial Liquidity Dashboard
+
+Expense Analysis Dashboard
+
+AR Aging Dashboard
 🧰 التقنيات المستخدمة
 
 Power BI / DAX
